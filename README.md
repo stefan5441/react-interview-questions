@@ -185,6 +185,23 @@ async function fetchDataWithAsyncAwait() {
 
 fetchDataWithAsyncAwait();
 ```
+\
+**Q9:** What are higher order functions?\
+**Q9:** They are functions that either take another function as an arguement or they return a function. \
+```
+function sayHello(callback) {
+  callback(); // Calling the function passed as an argument
+}
+
+// Callback function: passed to sayHello as an argument
+function greet() {
+  console.log("Hello, world!");
+}
+
+// Using the higher order function
+sayHello(greet); // Output: Hello, world!
+```
+
 ## React Questions
 
 ## Sources
