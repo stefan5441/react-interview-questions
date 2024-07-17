@@ -51,5 +51,5 @@ Const variables cannot be reassigned, and they are also block scoped.\
 ## Sources
 
 [Web Dev Cody Video 1](https://www.youtube.com/watch?v=xo1sW5HD7os)\
-[Web Dev Cody Video 2](https://www.youtube.com/watch?v=AHbAAnt9qsY)
-[Difference between var, const and let](https://www.naukri.com/code360/library/difference-between-var-let-and-const-in-js)\
+[Web Dev Cody Video 2](https://www.youtube.com/watch?v=AHbAAnt9qsY)\
+[Difference between var, const and let](https://www.naukri.com/code360/library/difference-between-var-let-and-const-in-js)
