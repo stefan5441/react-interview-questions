@@ -201,7 +201,7 @@ function greet() {
 // Using the higher order function
 sayHello(greet); // Output: Hello, world!
 ```
-\
+
 ## Web Dev Questions
 **Q1:** What is HTTP?\
 **A1:** HTTP is HyperTextTransferProtocol which is a protocol that dictates communications between servers. It has headers, body etc.\
@@ -225,7 +225,7 @@ sayHello(greet); // Output: Hello, world!
 \
 **Q5:** What are query strings?\
 **A5:** Query strings are strings that we attatched to the end of an url to get some sort of specific result. Usually this is done to APIs. Example of this is https://api.example.com/search?q1=react&q2=example, where the query part is ?q1=react&q2=example.\
-\
+
 ## React Questions
 
 ## Sources
