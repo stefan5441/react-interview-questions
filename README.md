@@ -96,7 +96,7 @@ Sort is used for sorting, LMAO! Also a weird syntax, LMAO!\
 It returns:\
 A negative value if the first element should come before the second.\
 Zero if both elements are equal.\
-A positive value if the second element should come before the first.\
+A positive value if the second element should come before the first.
 ```
 let numbers = [4, 2, 3, 1];
 
@@ -187,7 +187,7 @@ fetchDataWithAsyncAwait();
 ```
 \
 **Q9:** What are higher order functions?\
-**Q9:** They are functions that either take another function as an arguement or they return a function. \
+**Q9:** They are functions that either take another function as an arguement or they return a function.
 ```
 function sayHello(callback) {
   callback(); // Calling the function passed as an argument
@@ -224,7 +224,7 @@ sayHello(greet); // Output: Hello, world!
 \
 \
 **Q5:** What are query strings?\
-**A5:** Query strings are strings that we attatched to the end of an url to get some sort of specific result. Usually this is done to APIs. Example of this is https://api.example.com/search?q1=react&q2=example, where the query part is ?q1=react&q2=example.\
+**A5:** Query strings are strings that we attatched to the end of an url to get some sort of specific result. Usually this is done to APIs. Example of this is https://api.example.com/search?q1=react&q2=example, where the query part is ?q1=react&q2=example.
 
 ## React Questions
 
