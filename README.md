@@ -4,7 +4,7 @@ Hi, I have a React technical interview this monday and I am preparing for it by 
 
 ## Sources
 
-https://www.youtube.com/watch?v=xo1sW5HD7os
-https://www.youtube.com/watch?v=AHbAAnt9qsY
+[Web Dev Cody Video 1](https://www.youtube.com/watch?v=xo1sW5HD7os)
+[Web Dev Cody Video 2](https://www.youtube.com/watch?v=AHbAAnt9qsY)
 
 ## Questions and Answers
