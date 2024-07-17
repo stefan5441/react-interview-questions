@@ -201,8 +201,31 @@ function greet() {
 // Using the higher order function
 sayHello(greet); // Output: Hello, world!
 ```
+\
 ## Web Dev Questions
-
+**Q1:** What is HTTP?\
+**A1:** HTTP is HyperTextTransferProtocol which is a protocol that dictates communications between servers. It has headers, body etc.\
+\
+\
+**Q2:** What is Rest API?\
+**A2:** It is a server that is hosting some code that allows you to interact with it. It has a specific convention. You can do GET/POST/etc. requests to it.\
+\
+\
+**Q3:** What is CRUD?\
+**A3:** CRUD stands for Create, Retrieve, Update and Delete. It is basically saying that something has these four features.\
+\
+\
+**Q4:** What is cache?\
+**A4:** Cache is a type of memory. When something is accessed often on a page it is optimized by storing it in the cache memory, from which is faster to retrieve. A local cache is cache that is stored in your own browser.\
+\
+\
+**Q5:** What are cookies?\
+**A5:** Cookies keeps track of the user's session. For example if a user goes on a page, it gets marked as id "5" using cookies. When he accesses the page the next day, we can check the cookies and say, hey, it is the used id "5", so we remember him and track his session.\
+\
+\
+**Q5:** What are query strings?\
+**A5:** Query strings are strings that we attatched to the end of an url to get some sort of specific result. Usually this is done to APIs. Example of this is https://api.example.com/search?q1=react&q2=example, where the query part is ?q1=react&q2=example.\
+\
 ## React Questions
 
 ## Sources
