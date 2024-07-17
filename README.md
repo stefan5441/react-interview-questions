@@ -21,7 +21,6 @@ function printHelloWorld() {
 ```
 This works in JavaScript cause the declaration of the function is automatically moved on top of the block and that's why printHelloWorld(); is executed without an error.\
 \
-\
 **Q2:** What is closure in JS?\
 **A2:** A function that has access to the variables in its parent scope, even after the parent function has completed execution.\
 Example:
@@ -43,7 +42,6 @@ console.log(myCounter();)
 ```
 This will print out 4 cause the function remembers the counter variable in the parent function. No idea how it works but it does.\
 \
-\
 **Q3:** What is the difference between var, let and const?\
 **A3:** Var variables are function scoped, which means they can be used throughout the entire function, also they can be reassigned. This is because their declaration is hoisted, unlike the other two.\
 Let variables can also be reassigned, but they are block scoped.\
@@ -58,7 +56,6 @@ console.log("Outside block, x:", x); // Output: 10
 ```
 The example above shows that var is function scoped, if we put let or const instead, the second compose would cause an error since it is declared in the if block, but printed outside of the if block.\
 \
-\
 **Q4:** What are arrow functions and how are they used?\
 **A4:** Arrow functions are a different way to declare functions. They are often used with functions like .map, .filter, etc. since they provide better readability. They are also used for some practical thing with the this keyword but since I am doing functional react we don't use classes so I don't care about it that much. 
 Example of arrow functions:
@@ -72,10 +69,8 @@ const add = function(a, b) {
 const add = (a, b) => a + b;
 ```
 \
-\
 **Q5:** What is synchronous and what is asynchronous?\
 **A5:** Synchronous means that the operation runs line by line, the next line only gets executed when the previous one is finished with execution. Asynchronous means that lines will run in parallel if that is possible.\
-\
 \
 **Q6:** What are promises?\
 **Q6:** Promises are a way to handle asynchronous operations. A promise has three states:\
