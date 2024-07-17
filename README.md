@@ -44,7 +44,15 @@ This will print out 4 cause the function remembers the counter variable in the p
 **A3:** Var variables are function scoped, which means they can be used throughout the entire function, also they can be reassigned. This is because their declaration is hoisted, unlike the other two\
 Let variables can also be reassigned, but they are block scoped.\
 Const variables cannot be reassigned, and they are also block scoped.\
-
+Example:
+```
+if (true) {
+  var x = 10;
+  console.log("Inside block, x:", x); // Output: 10
+}
+console.log("Outside block, x:", x); // Output: 10
+```
+The example above shows that var is function scoped, if we put let or const instead, the second compose would cause an error since it is declared in the if block, but printed outside of the if block.
 
 ## React Questions
 
