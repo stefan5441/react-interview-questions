@@ -12,7 +12,7 @@ Wish me luck and good luck to you aswell!
 ## JS Questions
 **Q1:** What is hoising in JS?\
 **A1:** The process whereby the interpreter appears to move the declaration of functions, variables, classes, or imports to the top of their scope, prior to execution of the code.\
-Example:\
+Example:
 ```
 printHelloWorld();
 
@@ -20,12 +20,11 @@ function printHelloWorld() {
   console.log("Hello World!")
 }
 ```
-This works in JavaScript cause the declaration of the function is automatically moved on top of the block and that's why printHelloWorld(); is executed without an error.  
-
-
-**Q2:** What is closure in JS?  
-**A1:** A function that has access to the variables in its parent scope, even after the parent function has completed execution.  
-Example:  
+This works in JavaScript cause the declaration of the function is automatically moved on top of the block and that's why printHelloWorld(); is executed without an error.\
+\
+**Q2:** What is closure in JS?\
+**A1:** A function that has access to the variables in its parent scope, even after the parent function has completed execution.\
+Example:
 ```
 function makeCounter() {
   let counter = 0;
