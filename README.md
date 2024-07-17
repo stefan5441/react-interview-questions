@@ -201,6 +201,7 @@ function greet() {
 // Using the higher order function
 sayHello(greet); // Output: Hello, world!
 ```
+## Web Dev Questions
 
 ## React Questions
 
