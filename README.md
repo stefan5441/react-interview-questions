@@ -66,8 +66,41 @@ const add = function(a, b) {
 // Arrow function
 const add = (a, b) => a + b;
 ```
+\
+\
+**Q5:** What is synchronous and what is asynchronous?\
+**A5:** Synchronous means that the operation runs line by line, the next line only gets executed when the previous one is finished with execution. Asynchronous means that lines will run in parallel if that is possible.\
+Example:
+```
+```
+\
+\
+**Q6:** What are promises?\
+**Q6:** Promises are a way to handle asynchronous operations. A promise has three states:\
+Pending: The initial state, neither fulfilled nor rejected.\
+Fulfilled: The operation completed successfully.\
+Rejected: The operation failed.\
+Example:
+```
+let promise = new Promise((resolve, reject) => {
+  let success = true; // Change this to false to see the rejection case.
 
+  if (success) {
+    resolve("Message delivered successfully!");
+  } else {
+    reject("Failed to deliver the message.");
+  }
+});
 
+// Handling the promise
+promise
+  .then((message) => {
+    console.log(message); // This will run if the promise is resolved
+  })
+  .catch((error) => {
+    console.error(error); // This will run if the promise is rejected
+  });
+```
 ## React Questions
 
 ## Sources
