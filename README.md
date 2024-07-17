@@ -24,6 +24,7 @@ function printHelloWorld() {
 ```
 This works in JavaScript cause the declaration of the function is automatically moved on top of the block and that's why printHelloWorld(); is executed without an error.  
 
+
 **Q2:** What is closure in JS?  
 **A1:** A function that has access to the variables in its parent scope, even after the parent function has completed execution.  
 Example:  
