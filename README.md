@@ -41,7 +41,7 @@ This will print out 4 cause the function remembers the counter variable in the p
 \
 \
 **Q3:** What is the difference between var, let and const?\
-**A3:** Var variables are function scoped, which means they can be used throughout the entire function, also they can be reassigned. This is because their declaration is hoisted, unlike the other two\
+**A3:** Var variables are function scoped, which means they can be used throughout the entire function, also they can be reassigned. This is because their declaration is hoisted, unlike the other two.\
 Let variables can also be reassigned, but they are block scoped.\
 Const variables cannot be reassigned, and they are also block scoped.\
 Example:
@@ -52,7 +52,21 @@ if (true) {
 }
 console.log("Outside block, x:", x); // Output: 10
 ```
-The example above shows that var is function scoped, if we put let or const instead, the second compose would cause an error since it is declared in the if block, but printed outside of the if block.
+The example above shows that var is function scoped, if we put let or const instead, the second compose would cause an error since it is declared in the if block, but printed outside of the if block.\
+\
+\
+**Q4:** What are arrow functions and how are they used?\
+**A4:** Example of arrow functions:
+```
+// Traditional function expression
+const add = function(a, b) {
+    return a + b;
+};
+
+// Arrow function
+const add = (a, b) => a + b;
+```
+
 
 ## React Questions
 
