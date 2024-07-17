@@ -56,8 +56,62 @@ console.log("Outside block, x:", x); // Output: 10
 ```
 The example above shows that var is function scoped, if we put let or const instead, the second compose would cause an error since it is declared in the if block, but printed outside of the if block.\
 \
-**Q4:** What are arrow functions and how are they used?\
-**A4:** Arrow functions are a different way to declare functions. They are often used with functions like .map, .filter, etc. since they provide better readability. They are also used for some practical thing with the this keyword but since I am doing functional react we don't use classes so I don't care about it that much. 
+**Q4:** Explain the .map, .filter, .reduce and .sort methods (in the context of React).\
+**A4:** Map is often used to render lists of elements dynamically.\
+Example: Suppose you have an array of user names and you want to render a list of these names in a React component.
+```
+const users = ['Alice', 'Bob', 'Charlie'];
+
+return (
+  <ul>
+    {users.map((user, index) => (
+      <li key={index}>{user}</li>
+    ))}
+  </ul>
+);
+```
+Filter is used to delete elements from a list or conditionally render them.
+```
+const users = [
+  { name: "Alice", age: 17 },
+  { name: "Bob", age: 18 },
+  { name: "Charlie", age: 20 },
+];
+
+const adults = users.filter((user) => user.age >= 18);
+```
+Reduce: Suppose you have an array of products with prices and you want to display the total price. Warning: weird syntax.
+```
+let numbers = [1, 2, 3, 4];
+
+// 'reduce' goes through each number in the array.
+// 'total' starts at 0, and 'number' is each item in the array.
+let sum = numbers.reduce((total, number) => {
+  return total + number;
+}, 0);
+
+console.log(sum); // Output: 10
+```
+Sort is used for sorting, LMAO! Also a weird syntax, LMAO!\
+It returns:\
+A negative value if the first element should come before the second.\
+Zero if both elements are equal.\
+A positive value if the second element should come before the first.\
+```
+let numbers = [4, 2, 3, 1];
+
+// 'sort' compares two numbers at a time, 'a' and 'b'.
+// If 'a' is less than 'b', it keeps 'a' before 'b'. Otherwise, it switches them.
+numbers.sort((a, b) => {
+  return a - b;
+});
+
+console.log(numbers); // Output: [1, 2, 3, 4]
+```
+
+\
+**Q5:** What are arrow functions and how are they used?\
+**A5:** Arrow functions are a different way to declare functions. They are often used with functions like .map, .filter, etc. since they provide better readability. They are also used for some practical thing with the this keyword but since I am doing functional react we don't use classes so I don't care about it that much. 
 Example of arrow functions:
 ```
 // Traditional function expression
@@ -69,11 +123,11 @@ const add = function(a, b) {
 const add = (a, b) => a + b;
 ```
 \
-**Q5:** What is synchronous and what is asynchronous?\
-**A5:** Synchronous means that the operation runs line by line, the next line only gets executed when the previous one is finished with execution. Asynchronous means that lines will run in parallel if that is possible.\
+**Q6:** What is synchronous and what is asynchronous?\
+**A6:** Synchronous means that the operation runs line by line, the next line only gets executed when the previous one is finished with execution. Asynchronous means that lines will run in parallel if that is possible.\
 \
-**Q6:** What are promises?\
-**Q6:** Promises are a way to handle asynchronous operations. A promise has three states:\
+**Q7:** What are promises?\
+**Q7:** Promises are a way to handle asynchronous operations. A promise has three states:\
 Pending: The initial state, neither fulfilled nor rejected.\
 Fulfilled: The operation completed successfully.\
 Rejected: The operation failed.\
