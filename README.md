@@ -1,6 +1,7 @@
 ## About me
 
 Hi, I have a React technical interview this monday and I am preparing for it by finding interview questions online and answering them here. I will post this since it may help somebody :D.\
+\
 The questions are mainly from the two youtube videos from the youtuber Web Dev Cody (check out his channel very useful react content and he also has react exercises). I also added some questions myself that I thought could be useful. This does not guarantee that these will be the questions on YOUR interview, this is just my opinion on what is important.\
 \
 Wish me luck and good luck to you aswell!\
