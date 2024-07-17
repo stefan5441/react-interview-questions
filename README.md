@@ -2,7 +2,9 @@
 
 Hi, I have a React technical interview this monday and I am preparing for it by finding interview questions online and answering them here. I will post this since it may help somebody :D.\
 \
-Wish me luck and good luck to you aswell!
+Wish me luck and good luck to you aswell!\
+\
+**NOTE: MY INTERVIEW IS FOR THE NEWER REACT THAT USES FUNCTIONAL REACT COMPONENTS, NOT OLD REACT THAT USE CLASSES, I WILL SKIP QUESTIONS ABOUT CLASSES**
 
 ## JS Questions
 **Q1:** What is hoising in JS?\
@@ -56,7 +58,8 @@ The example above shows that var is function scoped, if we put let or const inst
 \
 \
 **Q4:** What are arrow functions and how are they used?\
-**A4:** Example of arrow functions:
+**A4:** Arrow functions are a different way to declare functions. They are often used with functions like .map, .filter, etc. since they provide better readability. They are also used for some practical thing with the this keyword but since I am doing functional react we don't use classes so I don't care about it that much. 
+Example of arrow functions:
 ```
 // Traditional function expression
 const add = function(a, b) {
