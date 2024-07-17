@@ -73,9 +73,6 @@ const add = (a, b) => a + b;
 \
 **Q5:** What is synchronous and what is asynchronous?\
 **A5:** Synchronous means that the operation runs line by line, the next line only gets executed when the previous one is finished with execution. Asynchronous means that lines will run in parallel if that is possible.\
-Example:
-```
-```
 \
 \
 **Q6:** What are promises?\
