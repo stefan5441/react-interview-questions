@@ -12,8 +12,8 @@ Wish me luck and good luck to you aswell!
 [Web Dev Cody Video 2](https://www.youtube.com/watch?v=AHbAAnt9qsY)
 
 ## JS Questions
-Q1: What is hoising in JS?
-A1: The process whereby the interpreter appears to move the declaration of functions, variables, classes, or imports to the top of their scope, prior to execution of the code.  
+**Q1:** What is hoising in JS?  
+**A1:** The process whereby the interpreter appears to move the declaration of functions, variables, classes, or imports to the top of their scope, prior to execution of the code.  
 Example:  
 ```
 printHelloWorld();
