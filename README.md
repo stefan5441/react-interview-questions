@@ -108,7 +108,6 @@ numbers.sort((a, b) => {
 
 console.log(numbers); // Output: [1, 2, 3, 4]
 ```
-
 \
 **Q5:** What are arrow functions and how are they used?\
 **A5:** Arrow functions are a different way to declare functions. They are often used with functions like .map, .filter, etc. since they provide better readability. They are also used for some practical thing with the this keyword but since I am doing functional react we don't use classes so I don't care about it that much. 
@@ -151,6 +150,40 @@ promise
   .catch((error) => {
     console.error(error); // This will run if the promise is rejected
   });
+```
+\
+**Q8:** Explain the async/await keywords.\
+**Q8:** These are more readable ways to handle promises\
+Without async/await:
+```
+function fetchDataWithPromises() {
+  fetch("https://jsonplaceholder.typicode.com/posts/1")
+    .then((response) => response.json())
+    .then((data) => {
+      console.log("Data fetched with Promises:", data);
+    })
+    .catch((error) => {
+      console.error("Error fetching data with Promises:", error);
+    });
+}
+
+fetchDataWithPromises();
+```
+With async/await:
+```
+async function fetchDataWithAsyncAwait() {
+  try {
+    const response = await fetch(
+      "https://jsonplaceholder.typicode.com/posts/1",
+    );
+    const data = await response.json();
+    console.log("Data fetched with Async/Await:", data);
+  } catch (error) {
+    console.error("Error fetching data with Async/Await:", error);
+  }
+}
+
+fetchDataWithAsyncAwait();
 ```
 ## React Questions
 
